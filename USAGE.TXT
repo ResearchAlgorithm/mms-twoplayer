@@ -1,0 +1,18 @@
+USAGE: ./mms.o [options]
+
+-m <p>	A parameter <p> should be provided after "-m". Set the number of goods as p.
+	If -m is not provided, the program use the default value 50.
+
+-e <e>	A parameter <e> should be provided after "-m". Set the error of the solution as e.
+	e should be a float number in (0,1).
+	If -m is not provided, the program will compute the solution with error [0.8 0.7 0.6 0.5 0.4 0.3 0.2 0.1 0.05 0.03 0.02 0.01].
+
+-f <f>	A file name <f> should be provided after "-f". Read problem from file <f> in stanard format.
+	The file contains 3 lines of data.
+	Line 1: an integer m denoting the number of goods and an integer MMS1 denoting the MMS of player 1.
+	Line 2: m integers. ith number denotes the value of ith goods of player1.
+	Line 3: m integers. ith number denotes the value of ith goods of player2.
+	If -f is not provided, the program will randomly generate the value of goods with mean 5000 and standard deviation 500.
+-r <r>	Repeate r times, each time compute an instance. Note that in this case, the data can only randomly generated rather than reading from file.
+-v	No verbose   
+

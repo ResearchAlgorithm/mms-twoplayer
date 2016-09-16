@@ -1,0 +1,29 @@
+mms-twoplayers - implementation of FPTAS algorithm for computing an allocation of goods for two players
+
+Version 1.00
+http://www.github.com/******/mms-twoplayer
+
+Please send comments to myxiao@gmail.com, shaoweikou1993@163.com.
+This software can be used for evaluation and non-commercial research purposes only. Commercial use is prohibited.
+Public redistribution of the code or its derivatives is prohibited.
+ 
+If you use this software for research purposes, you should send an email for permission.
+
+#############################################################################
+
+COMPILATION:
+
+This project is performed by C language and compiled by g++ comiler in unix/linux OS.
+The code also compil in Windows with Microsoft Visual C++ compiler.
+Tested on 64-bit machines.
+
+#############################################################################
+USAGE:
+
+Compile the code and run ./mms.o [options] (see USAGE.TXT for details).
+Each time running can only be used to solve one instance.
+
+#############################################################################
+
+For any problem, please contact us by e-mail (myxiao@gmail.com, shaoweikou1993@163.com).
+
